@@ -1,0 +1,6 @@
+packages:
+  - webapp
+  - backend
+
+ignoredBuiltDependencies:
+  - esbuild
