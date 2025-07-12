@@ -10,6 +10,8 @@ const subs = [
 
 const trpc = initTRPC.create();
 
+if (true) console.log('TRPC initialized');
+
 export const trpcRouter = trpc.router({
     'get-subscriptions': trpc.procedure.query(() => {
         return { subs }
