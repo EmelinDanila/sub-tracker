@@ -10,7 +10,7 @@ const subs = [
 
 const trpc = initTRPC.create();
 
-if (true) console.log('TRPC initialized');
+const x: number = "Hello world!";
 
 export const trpcRouter = trpc.router({
     'get-subscriptions': trpc.procedure.query(() => {
